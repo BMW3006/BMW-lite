@@ -3,7 +3,7 @@
   "description": "BMW lite WhatsApp Bot created by RX",
   "logo": "https://files.catbox.moe/7d9q28.jpg",
   "keywords": ["whatsapp", "bot", "bmw-lite", "rx"],
-  "repository": "https://github.com/BMW3006",
+  "repository": "https://github.com/BMW3006/bmw-lite",
   "stack": "container",
   "scripts": {
     "start": "node index.js"
