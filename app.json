@@ -1,0 +1,34 @@
+{
+  "name": "BMW-Lite",
+  "description": "BMW lite WhatsApp Bot created by RX",
+  "logo": "https://files.catbox.moe/7d9q28.jpg",
+  "keywords": ["whatsapp", "bot", "bmw-lite", "rx"],
+  "repository": "https://github.com/BMW3006",
+  "stack": "container",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "env": {
+    "PREFIX": {
+      "description": "Prefix ya bot yako (Mfano: . )",
+      "value": "."
+    },
+    "BOT_NAME": {
+      "description": "Jina la Bot yako",
+      "value": "BMW LITE"
+    },
+    "OWNER_NAME": {
+      "description": "Jina lako wewe Owner",
+      "value": "RX"
+    },
+    "CHANNEL_LINK": {
+      "description": "Link ya WhatsApp Channel yako",
+      "value": "https://whatsapp.com/channel/0029VbCjkJP2P59fBeYUuN1H"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

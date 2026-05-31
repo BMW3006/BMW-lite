@@ -1,0 +1,43 @@
+{
+  "name": "bmw-lite",
+  "version": "1.9.4",
+  "description": "The best Whatsapp bot - BMW lite Edition by RX",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 20.x",
+    "npm": ">= 10.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "RX",
+  "dependencies": {
+    "@google/genai": "^1.25.0",
+    "@whiskeysockets/baileys": "^6.6.0",
+    "ab-downloader": "latest",
+    "adm-zip": "^0.5.16",
+    "awesome-phonenumber": "^7.4.0",
+    "axios": "^1.8.3",
+    "better-sqlite3": "^12.2.0",
+    "btch-downloader": "latest",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.1.0",
+    "check-disk-space": "^3.3.1",
+    "dotenv": "^16.5.0",
+    "express": "^4.19.2",
+    "figlet": "^1.7.0",
+    "file-type": "^16.5.3",
+    "fluent-ffmpeg": "^2.1.3",
+    "form-data": "^4.0.0",
+    "google-tts-api": "^2.0.2",
+    "human-readable": "^0.2.1",
+    "jimp": "latest",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.45",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.7.0",
+    "pino": "^8.16.0",
+    "readline": "^1.3.0"
+  },
+  "license": "ISC"
+}
